@@ -12,6 +12,7 @@ public class DemoApplication implements CommandLineRunner {
 
 	public static final Logger log = LoggerFactory.getLogger(DemoApplication.class);
 	public static void main(String[] args) {
+		
 		log.info("Khizar Ayub");
 		SpringApplication.run(DemoApplication.class, args);
 	}
